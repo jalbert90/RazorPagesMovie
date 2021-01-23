@@ -21,7 +21,7 @@ namespace RazorPagesMovie.Pages.Movies
         }
         #endregion
 
-        public IList<Movie> Movie { get;set; }
+        public IList<Movie> Movie { get; set; }
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
         public SelectList Genres { get; set; }
